@@ -19,3 +19,8 @@
 
 Фигма - создание дизайна сайтов
 https://www.figma.com/community/category/web_design
+ссылка на шаблон
+https://www.figma.com/community/file/1193335018798394303
+
+задание по профессиям
+https://github.com/Hexlet/ru-test-assignments
