@@ -55,3 +55,6 @@ https://rosatomtalents.team/studentworkshop - Зимний Студенческ�
  5. 01.01 Разработка программных модулей
 
 
+![image](https://user-images.githubusercontent.com/112687883/213990091-9c3d8792-46a2-4f0e-b191-0aa08bce10de.png)
+
+
