@@ -153,3 +153,8 @@ Game Designer (Middle\Senior)
   
   
   https://tilda.cc/page/?pageid=33474651
+  
+  https://new.myresume.ru/resume/edit/1WNWwTsTIc8
+  
+  ![image](https://user-images.githubusercontent.com/112687883/216918381-4930bc6c-8d2f-4d2e-8239-c8e9ba0605d7.png)
+
