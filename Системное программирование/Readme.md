@@ -126,3 +126,39 @@ a.out - имя обозначало assembler output
 5. в чем разница каналов и сокетов
 каналы это процессы
 а сокеты между процессами
+
+ЛК4
+Потоки ввода, ввывода:
+
+STDIN(0)-стандартный ввод, файл из которого осуществляется чтение
+
+STDOUT(1)-стандартный вывод,файл в который осуществляется запись
+
+STDERR(2)-стандартный поток ошибок,файл в который осуществляется запись сообщений об ошибках
+
+перенаправление ввода command<filename
+                                       $cat<in_example_1
+                                       $./input2.sh<in_example_1&
+command>filename-rewrite 
+
+command>>filename-append
+
+2>/dev/null-заглушить STDERR
+
+Процессы и потоки
+
+Процесс- это набор ресурсов задачи во время ее выполнения:
+
+память,открытые файловые дескрипторы,контекст выполнения,обработчики сигналов,как минимум один поток,pid.
+
+Потоки имеют общую виртуальную память
+![image](https://user-images.githubusercontent.com/97913101/217463528-2a542ee2-a12e-4b0e-80d2-84e1dd1a3d71.png)
+![image](https://user-images.githubusercontent.com/97913101/217463614-77199431-5df1-418b-a191-2810b2cba61f.png)
+![image](https://user-images.githubusercontent.com/97913101/217464165-6d1bed1c-b578-47fe-9ced-ba37b0970387.png)
+![image](https://user-images.githubusercontent.com/97913101/217464282-4fc0acf4-0922-4525-ba75-a5f9f6ff1a97.png)
+![image](https://user-images.githubusercontent.com/97913101/217464430-51d25537-4bd2-4df5-aa58-e63a835aa843.png)
+![image](https://user-images.githubusercontent.com/97913101/217464751-3166bb10-9f3f-46ea-a26f-3b4496bc0229.png)
+init
+fork
+после fork  есть дочекрний и родительский процесс
+дочерняя копия полная копия родительского, но первым получает управление, а его pid присваивается родителю
