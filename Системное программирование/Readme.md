@@ -158,11 +158,18 @@ command>>filename-append
 ![image](https://user-images.githubusercontent.com/97913101/217464282-4fc0acf4-0922-4525-ba75-a5f9f6ff1a97.png)
 ![image](https://user-images.githubusercontent.com/97913101/217464430-51d25537-4bd2-4df5-aa58-e63a835aa843.png)
 ![image](https://user-images.githubusercontent.com/97913101/217464751-3166bb10-9f3f-46ea-a26f-3b4496bc0229.png)
-init
-fork
-после fork  есть дочекрний и родительский процесс
-дочерний процессор полная копия родительского, но первым получает управление, а его pid присваивается родителю
-совместное адресное пространство
-![image](https://user-images.githubusercontent.com/112687883/217467532-2e2386ee-e6b6-4ef6-bf4c-4f0ee98e9952.png)
+Жизненный цикл процесса
+![image](https://user-images.githubusercontent.com/97913101/217466133-deac82ce-741a-44fb-baf7-01dca5010225.png)
+
+Появление процесса в системе 
+unit-создание процесса
+fork()-коппирование процесса
+есть дочерний и родительский процесс,дочерний процесс полная копия родительского но в первом получает управление,а его pid приписывается родительскому процессу
+совместное адресное пространство copy-on-write
+![image](https://user-images.githubusercontent.com/97913101/217467512-ff8cced2-42b9-4da1-9f7e-57b2d1e7bf32.png)
+Смерть процесса:
+exit(kill) или сигнал завершения 
+По завершении, дочерний процесс переходит в состояние зомби
+$ хранит код завершения последней команды
 
 
