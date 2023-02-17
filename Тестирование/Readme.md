@@ -90,7 +90,30 @@ v-модель
 ![image](https://user-images.githubusercontent.com/112687883/219609323-9f9f36bf-35ab-46e6-bc1d-846e2253822a.png)
 
 
+![image](https://user-images.githubusercontent.com/112687883/219617641-022a4aeb-7d1e-42af-9ac5-edd8125be0a9.png)
 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Hello World";
+index = input ("Введите номер: ")
+print(index)
+a=0
+while a != "Все верно":
+    while index.isdigit():
+        while len(index) != 11:
+            indexa = input ("Неверная длина, введите номер: ")
+            while index[0] == "0":
+                print("Нельзя начать с 0")
+        print("Все верно")
+        a = "Все верно"
+    else:
+        index = input("Оставьте цифры, введите номер: ")  
+    return 0;
+}
 
 
 
