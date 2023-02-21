@@ -1,6 +1,8 @@
 
 https://replit.com/@OlgaChubova205/6semestr#main.py
 https://colab.research.google.com/drive/1EIG4FzRFcI642aPmcASVTNl4AoDmo5zU
+
+https://colab.research.google.com/drive/1ngjAq73u_Epq48y-rlVe6-P896qG7E8Z#scrollTo=dOBDcQMbOz0k
 import cv2
 
 vid_capture = cv2.VideoCapture(0)
