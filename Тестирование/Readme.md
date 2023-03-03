@@ -115,6 +115,47 @@ while a != "Все верно":
     return 0;
 }
 
+Тестовый набор
+Тестовая документация
+1. план тестирования
+https://radar4site.ru/upload/000/u1/4/a/test-plan.pdf
+2. https://www.software-testing.ru/images/stories/library/checklist-mobile-app-testen.pdf
+
+критерии приложения  в wpf и android studio:
+1. Контролирующие элементы максимально
+ненавязчивы (к примеру, исчезают, если не
+используются длительное время).
+2. Основная функция приложения удобопонятна и
+самоочевидна. Было понятно о чем производство
+3. Добавьте иконку прогресса ("Загружается…")
+для ситуаций с низкой производительностью,
+желательно с внятным сообщением.
+4. Клавиатура подстраивается под ожидаемый
+ввод (к примеру, цифры/буквы).
+
+https://habr.com/ru/post/542422/
+https://www.software-testing.ru/images/stories/library/complete-web-application-testing-checklis.pdf
+https://checklists.expert/checklist/73222-cheklist-po-igre
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
