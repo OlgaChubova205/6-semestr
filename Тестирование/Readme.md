@@ -138,7 +138,7 @@ https://www.software-testing.ru/images/stories/library/complete-web-application-
 https://checklists.expert/checklist/73222-cheklist-po-igre
 
 
-
+https://docs.google.com/document/d/1HOLKqPUAQFTGmtaQGacwKFFMZiCr6q8s/edit#heading=h.gjdgxs
 
 
 
