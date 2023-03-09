@@ -159,3 +159,15 @@ Game Designer (Middle\Senior)
   ![image](https://user-images.githubusercontent.com/112687883/216918381-4930bc6c-8d2f-4d2e-8239-c8e9ba0605d7.png)
 
 http://project6764318.tilda.ws/page33838217.html
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/112687883/224024052-cd4b8ab3-4fd7-4475-958d-52677d0d3aa5.png)
+
+
+![image](https://user-images.githubusercontent.com/112687883/224023605-d15687c7-163a-4cd1-b474-9e225720cbe5.png)
+
+![image](https://user-images.githubusercontent.com/112687883/224023656-23e3b39a-9c21-4b4c-936a-621eb353fce7.png)
+
