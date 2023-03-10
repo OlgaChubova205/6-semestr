@@ -241,3 +241,4 @@ while (vid_capture.isOpened()):
             break
     else:
         break
+        
