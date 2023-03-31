@@ -196,7 +196,7 @@ public static float Del(float a, float b)
 https://vc.ru/dev/137335-unit-testy-na-c?ysclid=lfc5ae2lnm197673354
 
 
-
+try new division by constant zero добавление нового искючения
 
 
 
