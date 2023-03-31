@@ -33,6 +33,12 @@ v-модель
 
 команда тестирования
 ![image](https://user-images.githubusercontent.com/112687883/213667223-d9246700-bca0-43bc-91ec-cb03ec179fb2.png)
+
+
+
+Исключения
+![image](https://user-images.githubusercontent.com/112687883/229086781-88e8e5df-e5e1-4264-ad30-d32baf8b3acd.png)
+
 Руководитель проекта
 сообщать о проблемах проекта, на тормозить развитие проекта
 
