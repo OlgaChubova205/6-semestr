@@ -173,9 +173,26 @@ Arrange-Act-Assert
 
 ![image](https://user-images.githubusercontent.com/112687883/229086961-50048c3d-1a8e-4ace-8744-df6aeeaf1110.png)
 
+public static float Del(float a, float b)
+        {
+            float del = 0;
+            /*if (b == 0)
+            {
+                Console.WriteLine("Error");
+            }
+            else*/
+            del = a / b;
+            return del;
+        }
 
-
-
+есвсть встроенные ошибки в программу
+    пример ошибки
+    division by constant zero
+    если мы не знаем какая может быть ошибка
+    то мы не можем использовать if и else
+     в программах есть способы для обработки ошибок, называются исключения
+    структура исключения : код, который мы хотим выполнить и поиск ошибок
+    
 
 
 
