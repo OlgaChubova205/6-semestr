@@ -171,5 +171,7 @@ fork()-коппирование процесса
 exit(kill) или сигнал завершения 
 По завершении, дочерний процесс переходит в состояние зомби
 $ хранит код завершения последней команды
+![image](https://user-images.githubusercontent.com/112687883/230008806-09abce9e-90b7-47f5-ac67-7ff859cfdf33.png)
+![image](https://user-images.githubusercontent.com/112687883/230008839-e5f1c77f-e105-4e29-8863-71d5d934618b.png)
 
 
