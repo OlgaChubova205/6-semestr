@@ -198,6 +198,9 @@ https://vc.ru/dev/137335-unit-testy-na-c?ysclid=lfc5ae2lnm197673354
 
 try new division by constant zero добавление нового искючения
 
+![image](https://user-images.githubusercontent.com/112687883/230592008-628441ea-b9d6-4d73-a2c1-ed8fa72994c2.png)
+![image](https://user-images.githubusercontent.com/112687883/230592092-999f2b30-f462-434c-977c-74a214b98dc8.png)
+![image](https://user-images.githubusercontent.com/112687883/230592133-314cc7d9-89a8-4d0b-bb2f-c9b4edb38369.png)
 
 
 
