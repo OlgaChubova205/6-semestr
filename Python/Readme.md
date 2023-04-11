@@ -2,6 +2,9 @@
 https://replit.com/@OlgaChubova205/6semestr#main.py
 https://colab.research.google.com/drive/1EIG4FzRFcI642aPmcASVTNl4AoDmo5zU
 
+https://colab.research.google.com/drive/19lA79XCI8aYRIK1TNqn5OrnoYcAa2nty?authuser=2#scrollTo=FJSknwS9t6Ro&uniqifier=2
+
+
 https://colab.research.google.com/drive/1ngjAq73u_Epq48y-rlVe6-P896qG7E8Z#scrollTo=dOBDcQMbOz0k
 import cv2
 
