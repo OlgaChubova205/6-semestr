@@ -2,7 +2,36 @@
 https://replit.com/@OlgaChubova205/6semestr#main.py
 https://colab.research.google.com/drive/1EIG4FzRFcI642aPmcASVTNl4AoDmo5zU
 
-https://colab.research.google.com/drive/19lA79XCI8aYRIK1TNqn5OrnoYcAa2nty?authuser=2#scrollTo=FJSknwS9t6Ro&uniqifier=2
+https://colab.research.google.com/drive/19lA79XCI8aYRIK1TNqn5OrnoYcAa2nty?usp=sharing
+
+
+#1 задать список
+A = ['1 thousand devils', 'My name is 9Pasha', 'Room #125 costs $100', '888']
+result=[]
+Result_new = []
+#2 список превратить в строку - разбить список на элементы
+for i in A:
+  #разделить строку на слова
+  Words = i.split()
+  print("Words")
+  print(Words)
+
+  for word in Words:
+  #4 убрать спец. символы и цифры
+    print (word.isalpha())
+    if word.isalpha():
+      result = word
+#5 объединение в одно
+  result_new=" ".join(result)
+  Result_new.append(result_new)
+print (result)
+print(Result_new)
+
+  #2 вариант запись генератор
+result = list(map(lambda n : ' '.join(filter(lambda n : n.isalpha(), n.split())), A))
+print (result)
+
+
 
 
 https://colab.research.google.com/drive/1ngjAq73u_Epq48y-rlVe6-P896qG7E8Z#scrollTo=dOBDcQMbOz0k
