@@ -187,6 +187,7 @@ file:///C:/Users/%D0%9E%D0%BB%D1%8C%D0%B3%D0%B0/Desktop/%D0%A1%D0%B0%D0%B9%D1%82
 file:///C:/Users/%D0%9E%D0%BB%D1%8C%D0%B3%D0%B0/Desktop/%D0%A1%D0%B0%D0%B9%D1%82/site_1/index.html
 file:///C:/Users/%D0%9E%D0%BB%D1%8C%D0%B3%D0%B0/Desktop/%D0%A1%D0%B0%D0%B9%D1%82/site_1/products/index.html
  
-
-
+https://olgachubova205.github.io/site/
+![image](https://user-images.githubusercontent.com/112687883/234647013-a70e1b19-1fc5-4709-99b1-cab98d9cf8dc.png)
+![image](https://user-images.githubusercontent.com/112687883/234646134-61d95476-8656-44c5-b805-f41767acb108.png)
 
