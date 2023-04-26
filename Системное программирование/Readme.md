@@ -174,4 +174,27 @@ $ хранит код завершения последней команды
 ![image](https://user-images.githubusercontent.com/112687883/230008806-09abce9e-90b7-47f5-ac67-7ff859cfdf33.png)
 ![image](https://user-images.githubusercontent.com/112687883/230008839-e5f1c77f-e105-4e29-8863-71d5d934618b.png)
 
+задание 2.
+
+работа с файлами
+
+Операция: создать, написать, прочитать, удалить, проверить 
+![image](https://user-images.githubusercontent.com/97913101/216910008-bd60cfd0-71fb-4076-9447-9d4935830ab1.png)
+![image](https://user-images.githubusercontent.com/97913101/216910081-7dc67bf2-3833-4044-bbf1-11c541b19621.png)
+![image](https://user-images.githubusercontent.com/97913101/216910134-978aa7b9-fc33-4e7d-9251-771448b42919.png)
+![image](https://user-images.githubusercontent.com/97913101/216910198-18c3457b-dcb3-4807-b275-c574964f74a5.png)
+![image](https://user-images.githubusercontent.com/97913101/216910237-252c130b-3e53-4e72-86f6-64dc8ae97ee7.png)
+![image](https://user-images.githubusercontent.com/97913101/216910390-5fde6fdd-5ccd-406c-950a-73234a8f7960.png)
+![image](https://user-images.githubusercontent.com/97913101/217460161-46d2e37b-ebbf-4e1d-b219-477caefea357.png)
+![image](https://user-images.githubusercontent.com/97913101/217460208-7907e361-a68a-43c5-a82a-6d085e36ec18.png)
+![image](https://user-images.githubusercontent.com/97913101/217460252-a98e507c-90cf-4d8d-8eca-4231e81144fd.png)
+![image](https://user-images.githubusercontent.com/97913101/217460281-be553bf8-d4cc-4082-879b-a18714d77e42.png)
+![image](https://user-images.githubusercontent.com/97913101/217460416-01d54fc6-96b1-4113-95fb-bca99270dec3.png)
+что означает $ 2.
+
+задание 4
+![image](https://user-images.githubusercontent.com/97913101/222657172-58b41f2d-5bbf-4630-afd9-8f7ee4ed1b24.png)
+![image](https://user-images.githubusercontent.com/97913101/222657240-1fe1f0fc-f68d-4cc0-94ac-e9b733b918c4.png)
+![image](https://user-images.githubusercontent.com/97913101/222657296-f0ff05e6-a4cc-4653-8fb4-e0c9f3455a61.png)
+![image](https://user-images.githubusercontent.com/97913101/222657345-bef680cd-6230-44f4-93a0-4d88ff88c41f.png)
 
