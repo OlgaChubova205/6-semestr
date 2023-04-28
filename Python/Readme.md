@@ -274,3 +274,8 @@ while (vid_capture.isOpened()):
     else:
         break
         
+https://colab.research.google.com/drive/19lA79XCI8aYRIK1TNqn5OrnoYcAa2nty?usp=sharing&authuser=1#scrollTo=HE228xwJsUb-
+![image](https://user-images.githubusercontent.com/112687883/235070643-315d26af-9836-42e9-8f05-680f9de66253.png)
+![image](https://user-images.githubusercontent.com/112687883/235070695-be94a223-f277-494e-a05e-27689201269a.png)
+![image](https://user-images.githubusercontent.com/112687883/235070730-910b0a4b-8e00-45e1-9701-74bdb3e25fbd.png)
+![image](https://user-images.githubusercontent.com/112687883/235070774-8e70aac6-7a41-4413-8c16-d3efd64b61f4.png)
