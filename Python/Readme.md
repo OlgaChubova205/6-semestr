@@ -279,3 +279,8 @@ https://colab.research.google.com/drive/19lA79XCI8aYRIK1TNqn5OrnoYcAa2nty?usp=sh
 ![image](https://user-images.githubusercontent.com/112687883/235070695-be94a223-f277-494e-a05e-27689201269a.png)
 ![image](https://user-images.githubusercontent.com/112687883/235070730-910b0a4b-8e00-45e1-9701-74bdb3e25fbd.png)
 ![image](https://user-images.githubusercontent.com/112687883/235070774-8e70aac6-7a41-4413-8c16-d3efd64b61f4.png)
+
+
+
+![image](https://github.com/OlgaChubova205/6-semestr/assets/112687883/64a1a5de-0c4b-459c-b385-e8f90e5a82fa)
+
