@@ -294,3 +294,7 @@ https://colab.research.google.com/drive/19lA79XCI8aYRIK1TNqn5OrnoYcAa2nty?usp=sh
 
 git remote add origin http://localhost:3000/User4/CompanyCoreLib.git
 
+4
+
+![image](https://github.com/OlgaChubova205/6-semestr/assets/112687883/23a5e15c-91ec-462c-af0f-83f85ede3750)
+
