@@ -274,6 +274,98 @@ while (vid_capture.isOpened()):
     else:
         break
         
+        
+        
+        
+        
+        
+import cv2 as cv # Добавляет модуль для подключения видео
+cap = cv.VideoCapture(0) # Виртуальная камера
+if not cap.isOpened(): # Если нет видео
+    print("Cannot open camera") # Выводим: видео отсутствует
+    exit()
+while True:
+    # Capture frame-by-frame # Виртуальная камера определяет кадры на видео
+    ret, frame = cap.read()
+    # if frame is read correctly ret is True Проверяет корректность кадра
+    if not ret: # если кадр нек крректный
+        print("Can't receive frame (stream end?). Exiting ...") # Выводим: невозможно вывести кадр
+        break # Завершить программ
+        
+        
+        для видео
+        
+
+
+    image = cv.imread (frame) # Работаем с кадром
+
+
+    # Gray, blur, adaptive threshold
+    gray = cv.cvtColor(image, cv.COLOR_BGR2GRAY) # Превращает основные цвета в оттенки серого
+
+    # cv2_imshow(gray)
+    blur = cv.GaussianBlur(gray, (3, 3), 0) # Размытие всего кадра
+    # cv2_imshow(blur)
+    thresh = cv.threshold(blur, 0, 255, cv.THRESH_BINARY + cv.THRESH_OTSU)[1] # пытается определить границы
+    # cv2_imshow(thresh)
+
+    # Morphological transformations
+    kernel = cv.getStructuringElement(cv.MORPH_RECT, (5, 5)) # Определяет элемент
+    opening = cv.morphologyEx(thresh, cv.MORPH_OPEN, kernel) # задает границу
+    # cv2_imshow(opening)
+    # Find contours
+    cnts = cv.findContours(opening, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE) # Находит контуры
+    cnts = cnts[0] if len(cnts) == 2 else cnts[1] # Ищет все контуры
+
+    for c in cnts:
+        # Find perimeter of contour
+        perimeter = cv.arcLength(c, True)
+        # Perform contour approximation
+        approx = cv.approxPolyDP(c, 0.04 * perimeter, True) # обозначает конгтур и задает ему дальнейший путь
+        # print(approx)
+        # We assume that if the contour has more than a certain
+        # number of verticies, we can make the assumption
+        # that the contour shape is a circle
+        if len(approx) > 3: # если контур содержит более т3 точек, принимаем его за круг
+            # Obtain bounding rectangle to get measurements
+            x, y, w, h = cv.boundingRect(c) # диаметр, радиус, ширина, высота объекта
+
+            # Find measurements
+            diameter = w
+            radius = w / 2
+
+            # Find centroid
+            M = cv.moments(c)
+            cX = int(M["m10"] / M["m00"]) # Координаты центра контура
+            cY = int(M["m01"] / M["m00"])
+            # print(cX,cY)
+            # Draw the contour and center of the shape on the image
+            cv.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 4) # Прямоугольный контур
+            cv.drawContours(image, [c], 0, (36, 255, 12), 4) # рисование контура на изображении
+            cv.circle(image, (cX, cY), 5, (320, 159, 22), -1) # Поставить точку в центре
+
+            # Draw line and diameter information
+            cv.line(image, (x, y + int(h / 2)), (x + w, y + int(h / 2)), (156, 188, 24), 3) # рИСОВАНИЕ ЛИНИИ ЧЕРЕЗ ЦЕТР ОБЪЕКТА
+            cv.putText(image, "Diameter: {}".format(diameter), (cX - 150, cY - 50), cv.FONT_HERSHEY_SIMPLEX, 0.5,
+                        (156, 188, 24), 1) # вЫВОД ТЕКСТА НА ИЗОБРАЖЕНИЕ
+
+    cv.imwrite('image.png', image) # Сохраняет изжображение
+    cv.imshow(image) #отображает изображение в окне
+    cv.imwrite('thresh.png', thresh)
+    # cv2_imshow(thresh)
+    cv.imwrite('opening.png', opening)# сохраняет изображение после операции opening
+    # cv2_imshow(opening)
+
+    # Our operations on the frame come here
+    gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY) # Преобразует изображение в оттенки серого
+    # Display the resulting frame
+    cv.imshow('frame', gray)# Отображает новое изображение
+    if cv.waitKey(1) == ord('q'): # Ожидает нажатия клавиши для завершения работы программы
+        break
+# When everything done, release the capture
+cap.release() # Освобождает ресурсы, используемые программой для видеопотока
+cv.destroyAllWindows() # закрывавет все окна программы
+        
 https://colab.research.google.com/drive/19lA79XCI8aYRIK1TNqn5OrnoYcAa2nty?usp=sharing&authuser=1#scrollTo=HE228xwJsUb-
 ![image](https://user-images.githubusercontent.com/112687883/235070643-315d26af-9836-42e9-8f05-680f9de66253.png)
 ![image](https://user-images.githubusercontent.com/112687883/235070695-be94a223-f277-494e-a05e-27689201269a.png)
