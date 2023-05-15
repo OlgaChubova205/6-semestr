@@ -296,8 +296,22 @@ while True:
         для видео
         
 
+import cv2 as cv # Добавляет модуль для подключения видео
+cap = cv.VideoCapture(0) # Виртуальная камера
+if not cap.isOpened(): # Если нет видео
+    print("Cannot open camera") # Выводим: видео отсутствует
+    exit()
+while True:
+    # Capture frame-by-frame # Виртуальная камера определяет кадры на видео
+    ret, frame = cap.read()
+    # if frame is read correctly ret is True Проверяет корректность кадра
+    if not ret: # если кадр нек крректный
+        print("Can't receive frame (stream end?). Exiting ...") # Выводим: невозможно вывести кадр
+        break # Завершить программу
 
-    image = cv.imread (frame) # Работаем с кадром
+
+
+    image = frame # Работаем с кадром
 
 
     # Gray, blur, adaptive threshold
@@ -349,19 +363,20 @@ while True:
             cv.putText(image, "Diameter: {}".format(diameter), (cX - 150, cY - 50), cv.FONT_HERSHEY_SIMPLEX, 0.5,
                         (156, 188, 24), 1) # вЫВОД ТЕКСТА НА ИЗОБРАЖЕНИЕ
 
-    cv.imwrite('image.png', image) # Сохраняет изжображение
-    cv.imshow(image) #отображает изображение в окне
-    cv.imwrite('thresh.png', thresh)
+
+    cv.imshow("itog", image) #отображает изображение в окне
+
     # cv2_imshow(thresh)
-    cv.imwrite('opening.png', opening)# сохраняет изображение после операции opening
+
     # cv2_imshow(opening)
 
     # Our operations on the frame come here
-    gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY) # Преобразует изображение в оттенки серого
-    # Display the resulting frame
-    cv.imshow('frame', gray)# Отображает новое изображение
+
     if cv.waitKey(1) == ord('q'): # Ожидает нажатия клавиши для завершения работы программы
         break
+# When everything done, release the capture
+cap.release() # Освобождает ресурсы, используемые программой для видеопотока
+cv.destroyAllWindows() # закрывавет все окна программы
 # When everything done, release the capture
 cap.release() # Освобождает ресурсы, используемые программой для видеопотока
 cv.destroyAllWindows() # закрывавет все окна программы
