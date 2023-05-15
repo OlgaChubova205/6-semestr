@@ -3,7 +3,7 @@ https://replit.com/@OlgaChubova205/6semestr#main.py
 https://colab.research.google.com/drive/1EIG4FzRFcI642aPmcASVTNl4AoDmo5zU
 
 https://colab.research.google.com/drive/19lA79XCI8aYRIK1TNqn5OrnoYcAa2nty?usp=sharing
-
+https://drive.google.com/drive/my-drive
 
 #1 задать список
 A = ['1 thousand devils', 'My name is 9Pasha', 'Room #125 costs $100', '888']
