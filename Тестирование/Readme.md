@@ -203,6 +203,33 @@ try new division by constant zero добавление нового искюче
 ![image](https://user-images.githubusercontent.com/112687883/230592133-314cc7d9-89a8-4d0b-bb2f-c9b4edb38369.png)
 
 
+    
+  сумма тест
+    
+    using NUnit.Framework;
+using Kalkulator;
+namespace TestKalkulator1
+{
+    public class Tests
+    {
+        [SetUp]
+        public void Setup()
+        {
+        }
+
+        [Test]
+        public void Test1()
+        {
+            float a = 4;
+            float b = 10;
+            float expected = 14;
+            float actual = Class1.Sum(a, b);
+            Assert.AreEqual(expected, actual);
+        }
+    }
+}
+    
+    
 
 
 
