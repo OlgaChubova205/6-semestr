@@ -230,6 +230,68 @@ namespace TestKalkulator1
 }
     
     
+    using NUnit.Framework;
+using Kalkulator;
+namespace TestKalkulator1
+{
+    public class Tests
+    {
+        [SetUp]
+        public void Setup()
+        {
+        }
+
+        [Test]
+        public void TestSum()
+        {
+            float a = 4;
+            float b = 10;
+            float expected = 14;
+            float actual = Class1.Sum(a, b);
+            Assert.AreEqual(expected, actual);
+        }
+
+        [Test]
+        public void TestMinus()
+        {
+            float a = 10;
+            float b = 8;
+            float expected = 2;
+            float actual = Class1.Minus(a, b);
+            Assert.AreEqual(expected, actual);
+        }
+        [Test]
+        public void TestUmn()
+        {
+            float a = 10;
+            float b = 10;
+            float expected = 100;
+            float actual = Class1.Umn(a, b);
+            Assert.AreEqual(expected, actual);
+        }
+        [Test]
+        public void TestDel()
+        {
+            float a = 10;
+            float b = 2;
+            float expected = 5;
+            float actual = Class1.Del(a, b);
+            Assert.AreEqual(expected, actual);
+        }
+        [Test]
+        public void TestDel0()
+        {
+            float a = 78;
+            float b = 0;
+            float expected = ;
+            float actual = Class1.Del(a, b);
+            Assert.AreEqual(expected, actual);
+        }
+    }
+}
+
+
+    
 
 
 
