@@ -289,10 +289,138 @@ namespace TestKalkulator1
         }
     }
 }
-
-
+ТЕСТИРОВАНИЕ ПАРОЛЯ
     
 
+![image](https://github.com/OlgaChubova205/6-semestr/assets/112687883/b942c95b-ebdd-4359-aa7b-867f0a7bb32d)
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Password;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Password.Tests
+{
+    [TestClass()]
+    public class PasswordChackerTests
+    {
+        
+            [TestMethod()]
+
+            public void Check_PasswordWidthDigits_ReturnsTrue()
+            {
+                // Arrange.
+                string password = "Aq1$";
+                bool expected = true;
+
+                // Act.
+                bool actual = PasswordChacker.ValidatePassword(password);
+
+                // Assert. 
+                Assert.IsFalse(actual);
+
+            }
+
+
+            [TestMethod()]
+
+           public void Check_PasswordWidthDigits_ReturnsFalse()
+            {
+                // Arrange.
+                string password = "ASDqweASD;";
+                bool expected = false;
+
+                // Act.
+                bool actual = PasswordChacker.ValidatePassword(password);
+
+                // Assert. 
+                Assert.IsFalse(actual);
+
+            }
+
+            [TestMethod()]
+
+           public void Check_PasswordWidthSpecSymbols_ReturnsTrue()
+            {
+                // Arrange.
+                string password = "Aqwe123$";
+                bool expected = true;
+
+                // Act.
+                bool actual = PasswordChacker.ValidatePassword(password);
+
+            // Assert. 
+            Assert.IsTrue(actual);
+
+            }
+            [TestMethod()]
+
+            public void Check_PasswordWidth_ReturnsFalse()
+            {
+                // Arrange.
+                string password = "AADqwe123";
+                bool expected = false;
+
+                // Act.
+                bool actual = PasswordChacker.ValidatePassword(password);
+
+                // Assert. 
+                Assert.IsFalse(actual);
+
+            }
+            [TestMethod()]
+
+            public void Check_PasswordWidthCaps_ReturnsTrue()
+            {
+                // Arrange.
+                string password = "ASDqwe123$;";
+                bool expected = true;
+
+                // Act.
+                bool actual = PasswordChacker.ValidatePassword(password);
+
+            // Assert. 
+            Assert.IsTrue(actual);
+
+        }
+
+
+
+        }
+    }
+
+    
+    
+    
+    CLASS 1
+    using System;
+using System.Linq;
+
+
+
+namespace Password
+{
+    public class PasswordChacker
+    {
+        public static bool ValidatePassword(string password)
+        {
+            if (password.Length < 8 || password.Length > 20)
+            return false;
+            if (!password.Any(Char.IsLower))
+                return false;
+            if (!password.Any(Char.IsUpper))
+                return false;
+            if (!password.Any(Char.IsDigit))
+                return false;
+            if (password.Intersect("#$%^$&_").Count() == 0)
+                return false;
+
+            return true;
+        }
+    }
+}
 
 
 
