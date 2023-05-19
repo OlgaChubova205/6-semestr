@@ -191,4 +191,5 @@ https://olgachubova205.github.io/site/
 ![image](https://user-images.githubusercontent.com/112687883/234647013-a70e1b19-1fc5-4709-99b1-cab98d9cf8dc.png)
 ![image](https://user-images.githubusercontent.com/112687883/234646134-61d95476-8656-44c5-b805-f41767acb1
 ![Стажировка](https://github.com/OlgaChubova205/6-semestr/assets/112687883/0a594fcf-29ce-480d-bf6c-db1b8ce076e2)
+![image](https://github.com/OlgaChubova205/6-semestr/assets/112687883/f0b22f1d-4cf9-41ee-b523-5b2bf07c0948)
 
