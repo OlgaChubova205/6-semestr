@@ -294,7 +294,7 @@ while True:
         
         
         для видео
-        
+ ```python   
 
 import cv2 as cv # Добавляет модуль для подключения видео
 cap = cv.VideoCapture(0) # Виртуальная камера
@@ -380,6 +380,7 @@ cv.destroyAllWindows() # закрывавет все окна программы
 # When everything done, release the capture
 cap.release() # Освобождает ресурсы, используемые программой для видеопотока
 cv.destroyAllWindows() # закрывавет все окна программы
+```
         
 https://colab.research.google.com/drive/19lA79XCI8aYRIK1TNqn5OrnoYcAa2nty?usp=sharing&authuser=1#scrollTo=HE228xwJsUb-
 ![image](https://user-images.githubusercontent.com/112687883/235070643-315d26af-9836-42e9-8f05-680f9de66253.png)
