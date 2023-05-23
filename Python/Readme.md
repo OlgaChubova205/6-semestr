@@ -409,3 +409,50 @@ https://colab.research.google.com/drive/19lA79XCI8aYRIK1TNqn5OrnoYcAa2nty?usp=sh
 5
 
 https://colab.research.google.com/drive/1ud9sbK8dV5ooe9K2Ez2NUxLknPlf4GLx?usp=sharing
+
+
+
+
+
+import cv2 as cv # Добавляет модуль для подключения видео
+cap = cv.VideoCapture(0) # Виртуальная камера
+if not cap.isOpened(): # Если нет видео
+   print("Cannot open camera") # Выводим: видео отсутствует
+   exit()
+while True:
+   # Capture frame-by-frame # Виртуальная камера определяет кадры на видео
+   ret, frame = cap.read()
+   # if frame is read correctly ret is True Проверяет корректность кадра
+   if not ret: # если кадр нек крректный
+       print("Can't receive frame (stream end?). Exiting ...") # Выводим: невозможно вывести кадр
+       break # Завершить программу
+   import cv2
+
+   img = frame
+   bd = cv2.barcode.BarcodeDetector()
+   # bd = cv2.barcode.BarcodeDetector('path/to/sr.prototxt', 'path/to/sr.caffemodel')
+
+   retval, decoded_info, decoded_type, points = bd.detectAndDecode(img)
+   print(retval)
+   print(decoded_info)
+   print(decoded_type)
+   print(cv2.barcode.EAN_13)
+   img = cv2.polylines(img, points.astype(int), True, (0, 255, 0), 3)
+   for s, p in zip(decoded_info, points):
+       img = cv2.putText(img, s, p[1].astype(int),
+                     cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1, cv2.LINE_AA)
+   cv2.imshow("штрих код", img)
+
+   print(type(points))
+   print(points)
+   print(points.shape)
+   if cv.waitKey(0) == ord('q'):  # Ожидает нажатия клавиши для завершения работы программы
+
+    break
+# When everything done, release the capture
+cap.release() # Освобождает ресурсы, используемые программой для видеопотока
+cv.destroyAllWindows() # закрывавет все окна программы
+# When everything done, release the capture
+cap.release() # Освобождает ресурсы, используемые программой для видеопотока
+cv.destroyAllWindows() # закрывавет все окна программы
+      
