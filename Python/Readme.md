@@ -413,7 +413,7 @@ https://colab.research.google.com/drive/1ud9sbK8dV5ooe9K2Ez2NUxLknPlf4GLx?usp=sh
 
 
 
-
+``` Python
 import cv2 as cv # Добавляет модуль для подключения видео
 cap = cv.VideoCapture(0) # Виртуальная камера
 if not cap.isOpened(): # Если нет видео
@@ -455,4 +455,4 @@ cv.destroyAllWindows() # закрывавет все окна программы
 # When everything done, release the capture
 cap.release() # Освобождает ресурсы, используемые программой для видеопотока
 cv.destroyAllWindows() # закрывавет все окна программы
-      
+```
