@@ -456,3 +456,4 @@ cv.destroyAllWindows() # закрывавет все окна программы
 cap.release() # Освобождает ресурсы, используемые программой для видеопотока
 cv.destroyAllWindows() # закрывавет все окна программы
 ```
+https://drive.google.com/drive/my-drive
