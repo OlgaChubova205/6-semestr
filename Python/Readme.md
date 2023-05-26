@@ -458,3 +458,6 @@ cv.destroyAllWindows() # закрывавет все окна программы
 ```
 https://drive.google.com/file/d/1-ZMeNKVViBsazvFFx57F9uCn9oJ3UPFn/view?usp=sharing
 https://drive.google.com/file/d/1-eSFufJxzCRx7WwK1qjNTY26vSR02K0q/view?usp=sharing
+
+![image](https://github.com/OlgaChubova205/6-semestr/assets/112687883/cf481fac-5532-4649-ab64-c454f0de12af)
+
