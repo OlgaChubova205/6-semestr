@@ -457,3 +457,4 @@ cap.release() # Освобождает ресурсы, используемые 
 cv.destroyAllWindows() # закрывавет все окна программы
 ```
 https://drive.google.com/file/d/1-ZMeNKVViBsazvFFx57F9uCn9oJ3UPFn/view?usp=sharing
+https://drive.google.com/file/d/1-eSFufJxzCRx7WwK1qjNTY26vSR02K0q/view?usp=sharing
