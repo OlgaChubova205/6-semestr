@@ -460,4 +460,37 @@ https://drive.google.com/file/d/1-ZMeNKVViBsazvFFx57F9uCn9oJ3UPFn/view?usp=shari
 https://drive.google.com/file/d/1-eSFufJxzCRx7WwK1qjNTY26vSR02K0q/view?usp=sharing
 
 ![image](https://github.com/OlgaChubova205/6-semestr/assets/112687883/cf481fac-5532-4649-ab64-c454f0de12af)
+``` python
+from pyzbar import pyzbar
+import cv2
 
+
+def draw_barcode(decoded, image):
+    image = cv2.rectangle(image, (decoded.rect.left, decoded.rect.top), 
+                            (decoded.rect.left + decoded.rect.width, decoded.rect.top + decoded.rect.height),
+                            color=(0, 255, 0),
+                            thickness=5)
+    return image
+
+def decode(image):
+    # decodes all barcodes from an image
+    decoded_objects = pyzbar.decode(image)
+    for obj in decoded_objects:
+        image = draw_barcode(obj, image)
+        print(obj)
+        print("Type:", obj.type)
+        print("Data:", obj.data)
+        print()
+
+    return image
+
+
+if __name__ == "__main__":
+    cap = cv2.VideoCapture(0)
+    while True:
+        _, frame = cap.read()
+        frame2 = decode(frame)
+        cv2.imshow("frame", frame2)
+        if cv2.waitKey(1) == ord("q"):
+            break
+```
