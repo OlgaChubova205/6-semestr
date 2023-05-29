@@ -1,3 +1,9 @@
+https://drive.google.com/file/d/1-ed_pw_Xpul9lETBzDsWWLdkoVzr72YW/view?usp=sharing
+
+
+
+
+
 
 https://replit.com/@OlgaChubova205/6semestr#main.py
 https://colab.research.google.com/drive/1EIG4FzRFcI642aPmcASVTNl4AoDmo5zU
