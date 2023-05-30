@@ -198,3 +198,42 @@ $ хранит код завершения последней команды
 ![image](https://user-images.githubusercontent.com/97913101/222657296-f0ff05e6-a4cc-4653-8fb4-e0c9f3455a61.png)
 ![image](https://user-images.githubusercontent.com/97913101/222657345-bef680cd-6230-44f4-93a0-4d88ff88c41f.png)
 
+![image](https://user-images.githubusercontent.com/50214016/217467524-63980ca9-a5ee-479e-84d5-1ac8e60a3ac6.png)
+<br> Смерть процесса - 1.exit(сигнал завершения) 2.kill после переходит в состояние зомби и переходит в другой поток
+       
+![image](https://user-images.githubusercontent.com/97594123/220555743-d0e4094c-97b4-4759-ac49-6ff290c6ffcb.png)
+![image](https://user-images.githubusercontent.com/97594123/220555968-0830d4d7-5166-4df2-9bb9-7c479a47df21.png)
+![image](https://user-images.githubusercontent.com/97594123/220556373-eaffc2f4-d22e-40cb-ab9d-96c022e2ba98.png)
+![image](https://user-images.githubusercontent.com/97594123/220559314-d2df56e3-bac1-493e-8c88-57ff7a24153e.png)
+
+![image](https://user-images.githubusercontent.com/97594123/220559226-3d182eb4-2a9a-4b06-87aa-8cdc1621434f.png)     
+![image](https://user-images.githubusercontent.com/97594123/220559113-87479d2c-3c6b-462a-8bb3-4f6de4ea8c9c.png)
+![image](https://user-images.githubusercontent.com/97594123/220560365-057c1556-6f80-4130-b45c-4a75f393f238.png)
+# Задание 4
+
+       
+![2023-03-01_09-28-34](https://user-images.githubusercontent.com/97594123/222062860-a3f7b5a1-a010-4c40-8164-5af73f540a3e.png)
+![2023-03-01_09-27-38](https://user-images.githubusercontent.com/97594123/222062863-c30b4221-ea0b-43f1-be56-8ec21d5edc09.png)
+![2023-03-01_09-29-46](https://user-images.githubusercontent.com/97594123/222062865-5e1e5d41-daac-4ee9-a642-4c12b59816d5.png)
+![2023-03-01_09-29-00](https://user-images.githubusercontent.com/97594123/222062867-5069a5ef-51ce-4cbf-9dbf-870bc441c845.png)
+
+<br> Ready - процесс готов к выполнению, они ждут процессорное время
+<br> Running - выполняется весь квант времени, либо пока не будет вытеснен более приоритетной задачей.
+Остановленный процесс(Stopped)
+![image](https://user-images.githubusercontent.com/50214016/225222029-a2349b95-b108-436d-b992-c1a065754ce5.png)
+<br> Sleeping - процесс в ожидании, пока ожидаемый ресурс станет доступен, вызов функции sleep()
+       состояние процесса Зомби - процесс завершился, но его родитель еще не обработал waitpid(). Ресурсы не занимаются, только дескриптор процесса (чтобы сообщить родителю статус завершения)
+       <br>устройства
+       Символьные: последовательный поток данных, имеет всего одну позицию - текущую
+       невозможно обратиться к случайным данным
+       Пример: клавиатура
+Если устройство позволяет обращаться к данным случайным образом, то это блочное устройство
+       Должны иметь возможность предоставлять доступ по любому адресу в устройстве
+       Память: сектор, блок, страница
+Очередь содержит список запросов на ввод/вывод и управляющую информацию
+     <br> Файловые системы
+Файловая система, задачи
+       Упорядочивание файлов, контроль доступа, защита данных, интерфейст
+<br> Иерархия
+       ![image](https://user-images.githubusercontent.com/50214016/225226167-3bbba37c-16e9-42f1-ba34-f58712f5533f.png)
+
