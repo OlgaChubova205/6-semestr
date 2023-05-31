@@ -182,58 +182,59 @@ $ хранит код завершения последней команды
 ![image](https://user-images.githubusercontent.com/97913101/216910008-bd60cfd0-71fb-4076-9447-9d4935830ab1.png)
 ![image](https://user-images.githubusercontent.com/97913101/216910081-7dc67bf2-3833-4044-bbf1-11c541b19621.png)
 ![image](https://user-images.githubusercontent.com/97913101/216910134-978aa7b9-fc33-4e7d-9251-771448b42919.png)
-![image](https://user-images.githubusercontent.com/97913101/216910198-18c3457b-dcb3-4807-b275-c574964f74a5.png)
-![image](https://user-images.githubusercontent.com/97913101/216910237-252c130b-3e53-4e72-86f6-64dc8ae97ee7.png)
-![image](https://user-images.githubusercontent.com/97913101/216910390-5fde6fdd-5ccd-406c-950a-73234a8f7960.png)
-![image](https://user-images.githubusercontent.com/97913101/217460161-46d2e37b-ebbf-4e1d-b219-477caefea357.png)
-![image](https://user-images.githubusercontent.com/97913101/217460208-7907e361-a68a-43c5-a82a-6d085e36ec18.png)
-![image](https://user-images.githubusercontent.com/97913101/217460252-a98e507c-90cf-4d8d-8eca-4231e81144fd.png)
-![image](https://user-images.githubusercontent.com/97913101/217460281-be553bf8-d4cc-4082-879b-a18714d77e42.png)
-![image](https://user-images.githubusercontent.com/97913101/217460416-01d54fc6-96b1-4113-95fb-bca99270dec3.png)
-что означает $ 2.
 
-задание 4
-![image](https://user-images.githubusercontent.com/97913101/222657172-58b41f2d-5bbf-4630-afd9-8f7ee4ed1b24.png)
-![image](https://user-images.githubusercontent.com/97913101/222657240-1fe1f0fc-f68d-4cc0-94ac-e9b733b918c4.png)
-![image](https://user-images.githubusercontent.com/97913101/222657296-f0ff05e6-a4cc-4653-8fb4-e0c9f3455a61.png)
-![image](https://user-images.githubusercontent.com/97913101/222657345-bef680cd-6230-44f4-93a0-4d88ff88c41f.png)
+Задание 3
 
-![image](https://user-images.githubusercontent.com/50214016/217467524-63980ca9-a5ee-479e-84d5-1ac8e60a3ac6.png)
-<br> Смерть процесса - 1.exit(сигнал завершения) 2.kill после переходит в состояние зомби и переходит в другой поток
-       
-![image](https://user-images.githubusercontent.com/97594123/220555743-d0e4094c-97b4-4759-ac49-6ff290c6ffcb.png)
-![image](https://user-images.githubusercontent.com/97594123/220555968-0830d4d7-5166-4df2-9bb9-7c479a47df21.png)
-![image](https://user-images.githubusercontent.com/97594123/220556373-eaffc2f4-d22e-40cb-ab9d-96c022e2ba98.png)
-![image](https://user-images.githubusercontent.com/97594123/220559314-d2df56e3-bac1-493e-8c88-57ff7a24153e.png)
+![220560365-057c1556-6f80-4130-b45c-4a75f393f238](https://github.com/Varya2018/6sem/assets/97594244/ebe1499e-5719-41e1-bb45-a9c0e7bea252)
+![220555743-d0e4094c-97b4-4759-ac49-6ff290c6ffcb](https://github.com/Varya2018/6sem/assets/97594244/2593ebfd-9538-4b75-bcb5-cd8f59d72e47)
+![220555968-0830d4d7-5166-4df2-9bb9-7c479a47df21](https://github.com/Varya2018/6sem/assets/97594244/fae215c1-cd2e-45a5-a009-c0877963612a)
+![220556373-eaffc2f4-d22e-40cb-ab9d-96c022e2ba98](https://github.com/Varya2018/6sem/assets/97594244/9118dcb8-d9e8-4356-ab6f-d0278a1c3da7)
+![220559314-d2df56e3-bac1-493e-8c88-57ff7a24153e](https://github.com/Varya2018/6sem/assets/97594244/c734e0cd-c107-4c12-ad75-4b56132217fd)
+![220559226-3d182eb4-2a9a-4b06-87aa-8cdc1621434f](https://github.com/Varya2018/6sem/assets/97594244/3e0b7999-1575-4802-9274-840075b03505)
+![220559113-87479d2c-3c6b-462a-8bb3-4f6de4ea8c9c](https://github.com/Varya2018/6sem/assets/97594244/17f9f9e5-89bd-4290-8887-52069aa9d5bb)
 
-![image](https://user-images.githubusercontent.com/97594123/220559226-3d182eb4-2a9a-4b06-87aa-8cdc1621434f.png)     
-![image](https://user-images.githubusercontent.com/97594123/220559113-87479d2c-3c6b-462a-8bb3-4f6de4ea8c9c.png)
-![image](https://user-images.githubusercontent.com/97594123/220560365-057c1556-6f80-4130-b45c-4a75f393f238.png)
-# Задание 4
+Задание 4
 
-       
-![2023-03-01_09-28-34](https://user-images.githubusercontent.com/97594123/222062860-a3f7b5a1-a010-4c40-8164-5af73f540a3e.png)
-![2023-03-01_09-27-38](https://user-images.githubusercontent.com/97594123/222062863-c30b4221-ea0b-43f1-be56-8ec21d5edc09.png)
-![2023-03-01_09-29-46](https://user-images.githubusercontent.com/97594123/222062865-5e1e5d41-daac-4ee9-a642-4c12b59816d5.png)
-![2023-03-01_09-29-00](https://user-images.githubusercontent.com/97594123/222062867-5069a5ef-51ce-4cbf-9dbf-870bc441c845.png)
+![222062860-a3f7b5a1-a010-4c40-8164-5af73f540a3e](https://github.com/Varya2018/6sem/assets/97594244/47820a31-ac4d-4075-803e-a6fe7cf2486c)
+![222062863-c30b4221-ea0b-43f1-be56-8ec21d5edc09](https://github.com/Varya2018/6sem/assets/97594244/e5ec2c10-3362-48d1-be6b-0807853c254c)
+![222062865-5e1e5d41-daac-4ee9-a642-4c12b59816d5](https://github.com/Varya2018/6sem/assets/97594244/40edb22d-7639-4daf-b017-7a531be83ca3)
+![222062867-5069a5ef-51ce-4cbf-9dbf-870bc441c845](https://github.com/Varya2018/6sem/assets/97594244/c1357396-c737-4ded-bcef-cae486ce33f9)
 
-<br> Ready - процесс готов к выполнению, они ждут процессорное время
-<br> Running - выполняется весь квант времени, либо пока не будет вытеснен более приоритетной задачей.
-Остановленный процесс(Stopped)
-![image](https://user-images.githubusercontent.com/50214016/225222029-a2349b95-b108-436d-b992-c1a065754ce5.png)
-<br> Sleeping - процесс в ожидании, пока ожидаемый ресурс станет доступен, вызов функции sleep()
-       состояние процесса Зомби - процесс завершился, но его родитель еще не обработал waitpid(). Ресурсы не занимаются, только дескриптор процесса (чтобы сообщить родителю статус завершения)
-       <br>устройства
-       Символьные: последовательный поток данных, имеет всего одну позицию - текущую
-       невозможно обратиться к случайным данным
-       Пример: клавиатура
-Если устройство позволяет обращаться к данным случайным образом, то это блочное устройство
-       Должны иметь возможность предоставлять доступ по любому адресу в устройстве
-       Память: сектор, блок, страница
-Очередь содержит список запросов на ввод/вывод и управляющую информацию
-     <br> Файловые системы
-Файловая система, задачи
-       Упорядочивание файлов, контроль доступа, защита данных, интерфейст
-<br> Иерархия
-       ![image](https://user-images.githubusercontent.com/50214016/225226167-3bbba37c-16e9-42f1-ba34-f58712f5533f.png)
+
+Ready - процесс готов к выполнению, они ждут процессорное время
+Running - выполняется весь квант времени, либо пока не будет вытеснен более приоритетной задачей. Остановленный процесс(Stopped)
+
+Задение 5
+
+![Screenshot_43](https://github.com/Varya2018/6sem/assets/97594244/88de16b2-c834-40d7-b54c-7974ce4ecfba)
+![Screenshot_44](https://github.com/Varya2018/6sem/assets/97594244/2269d332-9c23-4046-8179-21acddd6db65)
+![Screenshot_45](https://github.com/Varya2018/6sem/assets/97594244/60a4e747-f780-4059-b067-6e7bad7eae49)
+![Screenshot_46](https://github.com/Varya2018/6sem/assets/97594244/f0e9aef3-9834-4d50-9bb2-9234a222fa70)
+![Screenshot_47](https://github.com/Varya2018/6sem/assets/97594244/9ce10109-c3a6-4d1b-83b5-2d9396f0a6dd)
+![Screenshot_48](https://github.com/Varya2018/6sem/assets/97594244/2e359060-dcbf-460d-b420-fde051b7a30f)
+![Screenshot_49](https://github.com/Varya2018/6sem/assets/97594244/a90be2aa-667f-4ac7-9e1c-74fd63318571)
+![Screenshot_50](https://github.com/Varya2018/6sem/assets/97594244/a7a44bb9-57a3-4f95-9d69-f1b683f28d00)
+![Screenshot_51](https://github.com/Varya2018/6sem/assets/97594244/8faf7364-8015-4b18-a0a9-3946d9bf3ac8)
+![Screenshot_52](https://github.com/Varya2018/6sem/assets/97594244/05e9df8c-095c-4f9f-a76e-5216b921eb1f)
+![139705761-fe527094-819e-4bbd-abfc-451ca3198360](https://github.com/Varya2018/6sem/assets/97594244/13e2b868-8aae-45f6-8e59-1e16ba602b9e)
+
+
+
+Задание 6
+![Screenshot_21](https://github.com/Varya2018/6sem/assets/97594244/aa195226-bf0c-467e-b9bd-a1e0fb9242ee)
+![Screenshot_22](https://github.com/Varya2018/6sem/assets/97594244/1f8d3cca-2602-4a09-993d-f9700eba66a4)
+![Screenshot_23](https://github.com/Varya2018/6sem/assets/97594244/2d105e2b-e7a0-4ed0-85a2-4cd4d59fba5b)
+![Screenshot_24](https://github.com/Varya2018/6sem/assets/97594244/c71e83bb-1b68-4d85-91b3-7c89d5b05e5c)
+![Screenshot_25](https://github.com/Varya2018/6sem/assets/97594244/77db32fe-8a5d-45cc-8a25-629d4716d0b8)
+![Screenshot_26](https://github.com/Varya2018/6sem/assets/97594244/70aa5b3e-1b0d-4fc2-a564-388c63e4288d)
+![Screenshot_27](https://github.com/Varya2018/6sem/assets/97594244/3998972b-bc93-46d3-83e5-3673b9b64e67)
+![Screenshot_33](https://github.com/Varya2018/6sem/assets/97594244/fa998234-5371-4c12-a1c0-7ca9388c81ca)
+![Screenshot_34](https://github.com/Varya2018/6sem/assets/97594244/143598b4-b609-4a1d-8e4a-72efc1f2eef1)
+![Screenshot_35](https://github.com/Varya2018/6sem/assets/97594244/55ef405b-65a7-4271-9983-25156d4bd1b9)
+![Screenshot_36](https://github.com/Varya2018/6sem/assets/97594244/40f7e664-4b13-43c3-aa6a-56e2128b76c6)
+![Screenshot_37](https://github.com/Varya2018/6sem/assets/97594244/43b00860-44c8-43fe-b6bd-679041649055)
+![Screenshot_38](https://github.com/Varya2018/6sem/assets/97594244/9990f92f-6cd6-47ad-a49a-1a46138f7eaa)
+![Screenshot_39](https://github.com/Varya2018/6sem/assets/97594244/79bddc14-f20a-47a8-866e-c81f38e99c17)
+![Screenshot_41](https://github.com/Varya2018/6sem/assets/97594244/7a7ccdf6-64b9-473c-8133-7ec7c7b3d27a)
+![Screenshot_42](https://github.com/Varya2018/6sem/assets/97594244/154088d0-0295-4056-936c-6428b2fb72d8)
 
